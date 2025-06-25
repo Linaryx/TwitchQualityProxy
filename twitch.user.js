@@ -3,9 +3,10 @@
 // @namespace    http://tampermonkey.net/
 // @version      3.1
 // @description  Redirect Twitch usher requests to proxy.
-// @author       ReYohoho
-// @match        https://www.twitch.tv/*
+// @match        https://*.twitch.tv/*
 // @match        https://twitch.tv/*
+// @match        http://*.twitch.tv/*
+// @match        http://twitch.tv/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
